@@ -1,11 +1,13 @@
-// src/types/index.ts
+export type ProjectVariant = "coords" | "mirage" | "f1"; // New Type
 
 export interface Project {
   title: string;
   description: string;
   tags: string[];
-  projectUrl?: string; // Optional (some data science projects might not have a live link)
+  imageUrl?: string;
+  projectUrl?: string;
   githubUrl: string;
+  variant: ProjectVariant; // Added this field
 }
 
 export interface PersonalInfo {

@@ -9,6 +9,7 @@ export const projectsData: Project[] = [
     tags: ["React", "Maps API", "Node.js", "Geolocation"],
     projectUrl: "https://coords-one.vercel.app/",
     githubUrl: "https://github.com/Abimanyu-KA/Coords",
+    variant: "coords",
   },
   {
     title: "Mirage",
@@ -17,6 +18,7 @@ export const projectsData: Project[] = [
     tags: ["Python", "Cryptography", "Steganography", "Flask"],
     projectUrl: "https://mirage-pied.vercel.app/",
     githubUrl: "https://github.com/Abimanyu-KA/Mirage",
+    variant: "mirage",
   },
   {
     title: "F1 Predictive Analysis",
@@ -25,6 +27,7 @@ export const projectsData: Project[] = [
     tags: ["Python", "Pandas", "Scikit-Learn", "Data Visualization"],
     projectUrl: "https://f1-predictive-ai.streamlit.app/",
     githubUrl: "https://github.com/Abimanyu-KA/f1-predictive-analytics-strategy-ai",
+    variant: "f1",
   },
 ];
 
